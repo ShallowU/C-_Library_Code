@@ -1,0 +1,16 @@
+# 设置cmake最低版本
+cmake_minimum_required(VERSION 3.16)
+
+set(CMAKE_CXX_STANDARD 17) # C++17标准
+
+
+project(C_Library LANGUAGES CXX VERSION 1.0)
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin") # 设置可执行文件输出路径
+
+message("begin to build C_Library...")
+
+AUX_SOURCE_DIRECTORY(src DIR_SRCS) # 添加源代码文件夹, 自动扫描所有文件
+add_executable(C_Library  # 输出名为C_Library的可执行文件
+   ${DIR_SRCS}
+)

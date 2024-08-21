@@ -1,0 +1,3 @@
+D:/workplaceD/vscode/C_Library_Codes/build/CMakeFiles/C_Library.dir
+D:/workplaceD/vscode/C_Library_Codes/build/CMakeFiles/edit_cache.dir
+D:/workplaceD/vscode/C_Library_Codes/build/CMakeFiles/rebuild_cache.dir
